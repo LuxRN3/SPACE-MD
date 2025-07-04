@@ -15,12 +15,12 @@ module.exports = {
   
   //Enter your desired bot password here. Users will be asked for this password when they try to connect to your bot via telegram or web
   //Must be numbers only and a total of 8 digits
-  BOT_PASSWORD: parseInt(process.env.BOT_PASSWORD) || ,
+  BOT_PASSWORD: parseInt(process.env.BOT_PASSWORD) || 12345678,
   
   //Enter the desired password for accessing administrative access to the bot 
   //⚠️ Do not share with anyone as they can use it to control your bot
    //Must be numbers only and a total of 8 digits
-  ADMIN_PASSWORD: parseInt(process.env.BOT_PASSWORD) || ,
+  ADMIN_PASSWORD: parseInt(process.env.BOT_PASSWORD) || 11223344,
   
   //Enter telegram bot token for interaction with this bot via telegram (optional)
   TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '',
